@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "侧边栏网页浏览",
+    "version": "1.0.0",
+    "description": "在浏览器侧边栏打开内嵌网页，方便查看内容",
+    "permissions": [
+        "sidePanel",
+        "storage"
+    ],
+    "action": {
+        "default_title": "侧边栏网页浏览"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
